@@ -1,2 +1,2 @@
 # English-app
-english_app_win_forms
+This is an app i created for me to Learn English words
