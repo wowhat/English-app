@@ -56,6 +56,11 @@ namespace EnglishApp.view
 
         }
 
+        private void cmb_choosing_name_list_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            all_values.
+        }
+
         private void cmb_choosing_lang_SelectedIndexChanged(object sender, EventArgs e)
         {
 

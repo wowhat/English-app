@@ -32,6 +32,7 @@
             btn_open_file = new Button();
             cmb_choosing_name_list = new ComboBox();
             cmb_choosing_lang = new ComboBox();
+            btn_start = new Button();
             SuspendLayout();
             // 
             // lbl_start
@@ -63,6 +64,7 @@
             cmb_choosing_name_list.Name = "cmb_choosing_name_list";
             cmb_choosing_name_list.Size = new Size(181, 28);
             cmb_choosing_name_list.TabIndex = 2;
+            cmb_choosing_name_list.SelectedIndexChanged += cmb_choosing_name_list_SelectedIndexChanged;
             // 
             // cmb_choosing_lang
             // 
@@ -74,11 +76,22 @@
             cmb_choosing_lang.TabIndex = 3;
             cmb_choosing_lang.SelectedIndexChanged += cmb_choosing_lang_SelectedIndexChanged;
             // 
+            // btn_start
+            // 
+            btn_start.Enabled = false;
+            btn_start.Location = new Point(381, 382);
+            btn_start.Name = "btn_start";
+            btn_start.Size = new Size(127, 35);
+            btn_start.TabIndex = 4;
+            btn_start.Text = "btn_start";
+            btn_start.UseVisualStyleBackColor = true;
+            // 
             // Start_form
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
+            Controls.Add(btn_start);
             Controls.Add(cmb_choosing_lang);
             Controls.Add(cmb_choosing_name_list);
             Controls.Add(btn_open_file);
@@ -97,5 +110,6 @@
         private Button btn_open_file;
         private ComboBox cmb_choosing_name_list;
         private ComboBox cmb_choosing_lang;
+        private Button btn_start;
     }
 }

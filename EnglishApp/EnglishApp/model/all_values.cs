@@ -12,8 +12,11 @@ namespace EnglishApp.model
         public static string File_path { get; set; }
         public static List<string> sheet_names = new List<string>();
         public static KeyValuePair<string, string> the_word { get; set; }
+
         public static List<string> language_list = new List<string>();
         public static string choosed_lang { get; set; }
+
+        public static string choosed_list { get; set; }
 
 
     }

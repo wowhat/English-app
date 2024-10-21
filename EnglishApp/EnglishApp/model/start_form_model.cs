@@ -41,5 +41,10 @@ namespace EnglishApp.model
                 all_values.language_list.Add(item);
             }
         }
+
+        public void btn_start()
+        {
+            // stop here i need to do btn enabled = true if all is full    
+        }
     }
 }
