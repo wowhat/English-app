@@ -31,5 +31,15 @@ namespace EnglishApp.model
                 
             }
         }
+
+        public void choosing_lang()
+        {
+            string[] arr_lang = { "rus", "eng" };
+
+            foreach (string item in arr_lang)
+            {
+                all_values.language_list.Add(item);
+            }
+        }
     }
 }

@@ -39,17 +39,26 @@ namespace EnglishApp.view
 
             CLASS_choosing_name_list class_choosing_name_list = new CLASS_choosing_name_list();
             class_choosing_name_list.choosing_name_list();
-          
+
 
             foreach (var item in all_values.sheet_names)
             {
                 cmb_choosing_name_list.Items.Add(item);
             }
+
+            CLASS_choosing_lang class_choosing_lang = new CLASS_choosing_lang();
+            class_choosing_lang.choosing_lang();
+
+            foreach (var item in all_values.language_list)
+            {
+                cmb_choosing_lang.Items.Add(item);
+            }
+
         }
 
-        private void cmb_choosing_name_list_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmb_choosing_lang_SelectedIndexChanged(object sender, EventArgs e)
         {
-          
+
         }
     }
 }
