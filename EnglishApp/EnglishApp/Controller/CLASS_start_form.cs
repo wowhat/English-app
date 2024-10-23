@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EnglishApp.Controller
 {
-    class CLASS_btn_open_file
+    class CLASS_start_form
     {
         public void open_file()
         {
@@ -17,7 +17,22 @@ namespace EnglishApp.Controller
             {
                 start_form_model Start_form_model = new start_form_model();
                 Start_form_model.set_file_path(openFileDialog.FileName);
+
             }
         }
+        public void choosing_lang()
+        {
+            start_form_model Start_form_model = new start_form_model();
+            Start_form_model.choosing_lang();
+        }
+        public void choosing_name_list()
+        {
+            if (Path.GetExtension(all_values.File_path) == ".xlsx")
+            {
+                start_form_model start_Form_Model = new start_form_model();
+                start_Form_Model.Reading_names();
+            }
+        }
+
     }
 }

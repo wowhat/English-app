@@ -85,6 +85,7 @@
             btn_start.TabIndex = 4;
             btn_start.Text = "btn_start";
             btn_start.UseVisualStyleBackColor = true;
+            btn_start.Click += btn_start_click;
             // 
             // Start_form
             // 
@@ -102,6 +103,11 @@
             Load += Start_form_Load;
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void Btn_start_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
