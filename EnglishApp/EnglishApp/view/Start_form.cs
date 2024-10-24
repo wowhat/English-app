@@ -59,12 +59,13 @@ namespace EnglishApp.view
             cmb_choosing_name_list.Items.Clear();
             all_values.sheet_names.Clear();
             all_values.language_list.Clear();
+            cmb_choosing_lang.Items.Clear();
         }
 
         private void btn_open_file_Click(object sender, EventArgs e)
         {
 
-            clearing_all_virable();
+            clearing_all_virable(); // destroy data 
             bnt_open_file(); // open file 
             choose_name_list(); // выбор названия страцицы
             choose_language(); // выбор языкa
@@ -80,7 +81,7 @@ namespace EnglishApp.view
         private void btn_start_click(object sender, EventArgs e) 
         {
             Main_form main_form = new Main_form();
-
+            this.Hide();
             main_form.Show();
         }
         private void cmb_choosing_name_list_SelectedIndexChanged(object sender, EventArgs e)
