@@ -17,7 +17,6 @@ namespace EnglishApp.Controller
             {
                 start_form_model Start_form_model = new start_form_model();
                 Start_form_model.set_file_path(openFileDialog.FileName);
-
             }
         }
         public void choosing_lang()

@@ -62,6 +62,7 @@
             bnt_next_word.TabIndex = 2;
             bnt_next_word.Text = "next";
             bnt_next_word.UseVisualStyleBackColor = true;
+            bnt_next_word.Click += btn_next_Click;
             // 
             // btn_add_new_list
             // 
@@ -81,6 +82,7 @@
             btn_exit.TabIndex = 4;
             btn_exit.Text = "exit";
             btn_exit.UseVisualStyleBackColor = true;
+            btn_exit.Click += btn_exit_Click;
             // 
             // Main_form
             // 
@@ -95,8 +97,14 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "Main_form";
             Text = "Main_form";
+            Load += Main_form_load;
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void Bnt_next_word_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
