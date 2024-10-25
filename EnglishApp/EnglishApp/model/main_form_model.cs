@@ -10,6 +10,7 @@ namespace EnglishApp.model
 {
     class main_form_model
     {
+        Random random = new Random();
         public void reading_words()
         {
             using (ExcelPackage excelPackage = new ExcelPackage(new System.IO.FileInfo(all_values.File_path)))
@@ -42,7 +43,9 @@ namespace EnglishApp.model
 
         public void btn_next()
         {
-            
+            int rand_numb =  random.Next(all_values.all_words.Count);
+
+            all_values.input_word = all_values.the_word.Value;
         }
         
     }

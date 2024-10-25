@@ -28,7 +28,8 @@ namespace EnglishApp.view
 
         public void btn_next_Click(object sender, EventArgs e)
         {
-            
+
+            lbl_word.Text = all_values.label_word;
         }
         private void btn_exit_Click(object sender, EventArgs e)
         {
