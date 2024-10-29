@@ -21,6 +21,7 @@ namespace EnglishApp.model
         public static string choosed_lang { get; set; }
 
         public static string choosed_list { get; set; }
+        public static bool isEnglish { get; set; }
 
 
     }
