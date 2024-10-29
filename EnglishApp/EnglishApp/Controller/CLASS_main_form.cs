@@ -17,11 +17,11 @@ namespace EnglishApp.Controller
             switch (all_values.choosed_lang)
             {
                 case "eng":
-                    main_Form_Model.check_if_english(true);
+                    all_values.isEnglish = true;
                     break;
 
                 case "rus":
-                    main_Form_Model.check_if_english(false);
+                    all_values.isEnglish = false;
                     break;
             }
         }
