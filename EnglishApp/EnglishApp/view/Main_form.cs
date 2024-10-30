@@ -7,8 +7,11 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+using Timer = System.Timers.Timer;
+using System.Timers;
+
 
 namespace EnglishApp.view
 {
@@ -18,7 +21,10 @@ namespace EnglishApp.view
         {
             InitializeComponent();
         }
+
+        Timer timer = new Timer();
         main_form_model main_Form_model = new main_form_model();
+
         public void Main_form_load(Object sender, EventArgs e)
         {
 
@@ -55,6 +61,32 @@ namespace EnglishApp.view
         public void block_btn_next()
         {
             btn_next_word.Enabled = false;
+        }
+        public void show_the_additionaly_button()
+        {
+            btn_add_new_list.Enabled = false;
+            btn_start_additionaly_form.Visible = true;
+        }
+
+        public void btn_addintionaly_form_Click(object sender, EventArgs e)
+        {
+            Additionally_form additionaly_form = new Additionally_form();
+            additionaly_form.Show();
+            Hide();
+        }
+
+
+        private void btn_add_new_list_Click(object sender, EventArgs e)
+        {
+
+            main_Form_model.adding_words_to_new_list();
+
+            lbl_word.Text = all_values.label_word;
+
+            if (lbl_word.Text == "the end")
+            {
+                show_the_additionaly_button();
+            }
         }
     }
 }

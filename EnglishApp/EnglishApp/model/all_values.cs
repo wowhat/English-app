@@ -23,6 +23,8 @@ namespace EnglishApp.model
         public static string choosed_list { get; set; }
         public static bool isEnglish { get; set; }
 
+        public static List<KeyValuePair<string, string>> additionaly_words = new List<KeyValuePair<string, string>>();
+
 
     }
 }
