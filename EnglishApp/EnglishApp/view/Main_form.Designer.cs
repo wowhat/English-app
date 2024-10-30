@@ -33,6 +33,8 @@
             btn_next_word = new Button();
             btn_add_new_list = new Button();
             btn_exit = new Button();
+            lbl_dop_word = new Label();
+            btn_start_additionaly_form = new Button();
             SuspendLayout();
             // 
             // lbl_word
@@ -54,7 +56,7 @@
             // 
             // btn_next_word
             // 
-            btn_next_word.Location = new Point(411, 219);
+            btn_next_word.Location = new Point(411, 239);
             btn_next_word.Name = "btn_next_word";
             btn_next_word.Size = new Size(75, 23);
             btn_next_word.TabIndex = 2;
@@ -64,12 +66,13 @@
             // 
             // btn_add_new_list
             // 
-            btn_add_new_list.Location = new Point(286, 219);
+            btn_add_new_list.Location = new Point(286, 239);
             btn_add_new_list.Name = "btn_add_new_list";
             btn_add_new_list.Size = new Size(75, 23);
             btn_add_new_list.TabIndex = 3;
             btn_add_new_list.Text = "add in new list";
             btn_add_new_list.UseVisualStyleBackColor = true;
+            btn_add_new_list.Click += btn_add_new_list_Click;
             // 
             // btn_exit
             // 
@@ -82,11 +85,34 @@
             btn_exit.UseVisualStyleBackColor = true;
             btn_exit.Click += btn_exit_Click;
             // 
+            // lbl_dop_word
+            // 
+            lbl_dop_word.AutoSize = true;
+            lbl_dop_word.Font = new Font("Segoe UI", 20F);
+            lbl_dop_word.Location = new Point(356, 178);
+            lbl_dop_word.Name = "lbl_dop_word";
+            lbl_dop_word.Size = new Size(38, 37);
+            lbl_dop_word.TabIndex = 5;
+            lbl_dop_word.Text = "lll";
+            // 
+            // btn_start_additionaly_form
+            // 
+            btn_start_additionaly_form.Location = new Point(411, 239);
+            btn_start_additionaly_form.Name = "btn_start_additionaly_form";
+            btn_start_additionaly_form.Size = new Size(75, 23);
+            btn_start_additionaly_form.TabIndex = 6;
+            btn_start_additionaly_form.Text = "start";
+            btn_start_additionaly_form.UseVisualStyleBackColor = true;
+            btn_start_additionaly_form.Visible = false;
+            btn_start_additionaly_form.Click += btn_addintionaly_form_Click;
+            // 
             // Main_form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_start_additionaly_form);
+            Controls.Add(lbl_dop_word);
             Controls.Add(btn_exit);
             Controls.Add(btn_add_new_list);
             Controls.Add(btn_next_word);
@@ -111,5 +137,7 @@
         private Button btn_next_word;
         private Button btn_add_new_list;
         private Button btn_exit;
+        private Label lbl_dop_word;
+        private Button btn_start_additionaly_form;
     }
 }
