@@ -68,5 +68,12 @@ namespace EnglishApp.model
             check_if_english();
         }
 
+        public void opening_additionaly_form(Main_form main_form)
+        {
+            Additionally_form additionaly_form = new Additionally_form();
+            additionaly_form.Show();
+            main_form.Hide();
+        }
+
     }
 }

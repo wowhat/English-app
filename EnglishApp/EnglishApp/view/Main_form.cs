@@ -9,8 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading.Tasks;
-using Timer = System.Timers.Timer;
 using System.Timers;
+using System.Xml.Serialization;
 
 
 namespace EnglishApp.view
@@ -20,9 +20,11 @@ namespace EnglishApp.view
         public Main_form()
         {
             InitializeComponent();
+            this.AcceptButton = btn_next_word; // при нажатии на enter срабатывает кнопка 
+            this.CancelButton = btn_exit; // при нажаии на esc срабатывает кнопка
         }
 
-        Timer timer = new Timer();
+
         main_form_model main_Form_model = new main_form_model();
 
         public void Main_form_load(Object sender, EventArgs e)
@@ -38,7 +40,7 @@ namespace EnglishApp.view
 
         public void btn_next_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == all_values.input_word)
+            if (textBox1.Text.ToLower().Trim() == all_values.input_word.ToLower().Trim())
             {
                 textBox1.Clear();
                 main_Form_model.btn_next();
@@ -48,7 +50,7 @@ namespace EnglishApp.view
 
             if (lbl_word.Text == "the end")
             {
-                block_btn_next();
+                Check();
             }
         }
         private void btn_exit_Click(object sender, EventArgs e)
@@ -58,35 +60,36 @@ namespace EnglishApp.view
             this.Hide();
         } // working
 
-        public void block_btn_next()
-        {
-            btn_next_word.Enabled = false;
-        }
         public void show_the_additionaly_button()
         {
-            btn_add_new_list.Enabled = false;
+            btn_add_in_new_list.Enabled = false;
             btn_start_additionaly_form.Visible = true;
         }
 
         public void btn_addintionaly_form_Click(object sender, EventArgs e)
         {
-            Additionally_form additionaly_form = new Additionally_form();
-            additionaly_form.Show();
-            Hide();
-        }
+            main_Form_model.opening_additionaly_form(this);
+        } // открытие дополнительной формы
 
 
         private void btn_add_new_list_Click(object sender, EventArgs e)
         {
 
             main_Form_model.adding_words_to_new_list();
-
             lbl_word.Text = all_values.label_word;
-
-            if (lbl_word.Text == "the end")
+            Check();
+        }
+        
+        public void Check()
+        {
+            if (lbl_word.Text == "the end" && all_values.additionaly_words.Count != null)
             {
+                btn_next_word.Enabled = false;
+                btn_add_in_new_list.Enabled = false;
                 show_the_additionaly_button();
+
             }
         }
+
     }
 }
