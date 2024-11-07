@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Xml.Serialization;
+using OfficeOpenXml.Drawing.Slicer.Style;
 
 
 namespace EnglishApp.view
@@ -50,6 +51,7 @@ namespace EnglishApp.view
 
             if (lbl_word.Text == "the end")
             {
+                
                 Check();
             }
         }
@@ -82,12 +84,16 @@ namespace EnglishApp.view
         
         public void Check()
         {
-            if (lbl_word.Text == "the end" && all_values.additionaly_words.Count != null)
+            if (lbl_word.Text == "the end" && all_values.additionaly_words.Count != 0)
             {
                 btn_next_word.Enabled = false;
                 btn_add_in_new_list.Enabled = false;
                 show_the_additionaly_button();
-
+            }
+            else if(lbl_word.Text == "the end")
+            {
+                btn_next_word.Enabled = false;
+                btn_add_in_new_list.Enabled = false;
             }
         }
 

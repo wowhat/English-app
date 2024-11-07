@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\codeProjects\\English-app\\EnglishApp\\",
+  "WorkspaceRootPath": "C:\\git_projects\\English-app\\EnglishApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|d:\\codeprojects\\english-app\\englishapp\\englishapp\\view\\main_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\main_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|d:\\codeprojects\\english-app\\englishapp\\englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|d:\\codeprojects\\english-app\\englishapp\\englishapp\\model\\main_form_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\model\\main_form_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|d:\\codeprojects\\english-app\\englishapp\\englishapp\\controller\\class_main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\controller\\class_main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|D:\\codeProjects\\English-app\\EnglishApp\\englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|d:\\codeprojects\\english-app\\englishapp\\englishapp\\view\\additionally_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\additionally_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|d:\\codeprojects\\english-app\\englishapp\\englishapp\\model\\all_values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_projects\\english-app\\englishapp\\englishapp\\model\\all_values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\model\\all_values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|D:\\codeProjects\\English-app\\EnglishApp\\englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_projects\\english-app\\englishapp\\englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_projects\\english-app\\englishapp\\englishapp\\model\\main_form_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\model\\main_form_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_projects\\english-app\\englishapp\\englishapp\\controller\\class_main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\controller\\class_main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_projects\\english-app\\englishapp\\englishapp\\view\\main_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\main_form.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|C:\\git_projects\\English-app\\EnglishApp\\englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_projects\\english-app\\englishapp\\englishapp\\view\\additionally_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\additionally_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|C:\\git_projects\\English-app\\EnglishApp\\englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,30 +42,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "all_values.cs",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\model\\all_values.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\model\\all_values.cs",
               "RelativeDocumentMoniker": "EnglishApp\\model\\all_values.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\model\\all_values.cs",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\model\\all_values.cs",
               "RelativeToolTip": "EnglishApp\\model\\all_values.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB2AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T11:27:20.043Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Main_form.cs",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs",
               "RelativeDocumentMoniker": "EnglishApp\\view\\Main_form.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs",
               "RelativeToolTip": "EnglishApp\\view\\Main_form.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAUwDUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T11:00:55.535Z",
               "IsPinned": true,
@@ -73,11 +74,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Additionally_form.cs",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Additionally_form.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Additionally_form.cs",
               "RelativeDocumentMoniker": "EnglishApp\\view\\Additionally_form.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Additionally_form.cs",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Additionally_form.cs",
               "RelativeToolTip": "EnglishApp\\view\\Additionally_form.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADgvxEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,67 +86,70 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main_form_model.cs",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\model\\main_form_model.cs",
-              "RelativeDocumentMoniker": "EnglishApp\\model\\main_form_model.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\model\\main_form_model.cs",
-              "RelativeToolTip": "EnglishApp\\model\\main_form_model.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAADwv0QAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:24:49.196Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Main_form.Designer.cs",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.Designer.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.Designer.cs",
               "RelativeDocumentMoniker": "EnglishApp\\view\\Main_form.Designer.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.Designer.cs",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.Designer.cs",
               "RelativeToolTip": "EnglishApp\\view\\Main_form.Designer.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowEsAAAAPAAAA",
+              "ViewState": "AQIAAHEAAAAAAAAAAADgv30AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:43:01.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T15:43:01.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main_form_model.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\model\\main_form_model.cs",
+              "RelativeDocumentMoniker": "EnglishApp\\model\\main_form_model.cs",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\model\\main_form_model.cs",
+              "RelativeToolTip": "EnglishApp\\model\\main_form_model.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAArwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:24:49.196Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CLASS_main_form.cs",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\Controller\\CLASS_main_form.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\Controller\\CLASS_main_form.cs",
               "RelativeDocumentMoniker": "EnglishApp\\Controller\\CLASS_main_form.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\Controller\\CLASS_main_form.cs",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\Controller\\CLASS_main_form.cs",
               "RelativeToolTip": "EnglishApp\\Controller\\CLASS_main_form.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAvwBsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:32:59.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:32:59.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Main_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs",
               "RelativeDocumentMoniker": "EnglishApp\\view\\Main_form.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "EnglishApp\\view\\Main_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:39:38.387Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-10-23T15:39:38.387Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Start_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Start_form.cs",
+              "DocumentMoniker": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Start_form.cs",
               "RelativeDocumentMoniker": "EnglishApp\\view\\Start_form.cs",
-              "ToolTip": "D:\\codeProjects\\English-app\\EnglishApp\\EnglishApp\\view\\Start_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "ToolTip": "C:\\git_projects\\English-app\\EnglishApp\\EnglishApp\\view\\Start_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "EnglishApp\\view\\Start_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:54:27.789Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-11-03T13:54:27.789Z"
             }
           ]
         }
