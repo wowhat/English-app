@@ -103,7 +103,6 @@ C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\Engli
 C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.genruntimeconfig.cache
 C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\ref\EnglishApp.dll
 D:\codeProjects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.csproj.AssemblyReference.cache
-D:\codeProjects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.view.Additionally_form.resources
 D:\codeProjects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.view.Main_form.resources
 D:\codeProjects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.view.Start_form.resources
 D:\codeProjects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.csproj.GenerateResource.cache

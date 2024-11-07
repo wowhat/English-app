@@ -64,36 +64,23 @@ namespace EnglishApp.view
 
         public void show_the_additionaly_button()
         {
-            btn_add_in_new_list.Enabled = false;
+            btn_idk.Enabled = false;
             btn_start_additionaly_form.Visible = true;
         }
 
-        public void btn_addintionaly_form_Click(object sender, EventArgs e)
+        private void btn_idk_click(object sender, EventArgs e)
         {
-            main_Form_model.opening_additionaly_form(this);
-        } // открытие дополнительной формы
-
-
-        private void btn_add_new_list_Click(object sender, EventArgs e)
-        {
-
-            main_Form_model.adding_words_to_new_list();
+            main_Form_model.check_if_english();
             lbl_word.Text = all_values.label_word;
-            Check();
         }
-        
+
         public void Check()
         {
-            if (lbl_word.Text == "the end" && all_values.additionaly_words.Count != 0)
+            if (lbl_word.Text == "the end")
             {
                 btn_next_word.Enabled = false;
-                btn_add_in_new_list.Enabled = false;
+                btn_idk.Enabled = false;
                 show_the_additionaly_button();
-            }
-            else if(lbl_word.Text == "the end")
-            {
-                btn_next_word.Enabled = false;
-                btn_add_in_new_list.Enabled = false;
             }
         }
 

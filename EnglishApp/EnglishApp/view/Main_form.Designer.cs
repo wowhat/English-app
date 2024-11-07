@@ -31,7 +31,7 @@
             lbl_word = new Label();
             textBox1 = new TextBox();
             btn_next_word = new Button();
-            btn_add_in_new_list = new Button();
+            btn_idk = new Button();
             btn_exit = new Button();
             lbl_dop_word = new Label();
             btn_start_additionaly_form = new Button();
@@ -64,15 +64,15 @@
             btn_next_word.UseVisualStyleBackColor = true;
             btn_next_word.Click += btn_next_Click;
             // 
-            // btn_add_in_new_list
+            // btn_idk
             // 
-            btn_add_in_new_list.Location = new Point(262, 239);
-            btn_add_in_new_list.Name = "btn_add_in_new_list";
-            btn_add_in_new_list.Size = new Size(93, 23);
-            btn_add_in_new_list.TabIndex = 3;
-            btn_add_in_new_list.Text = "add in new list";
-            btn_add_in_new_list.UseVisualStyleBackColor = true;
-            btn_add_in_new_list.Click += btn_add_new_list_Click;
+            btn_idk.Location = new Point(262, 239);
+            btn_idk.Name = "btn_idk";
+            btn_idk.Size = new Size(93, 23);
+            btn_idk.TabIndex = 3;
+            btn_idk.Text = "idk";
+            btn_idk.UseVisualStyleBackColor = true;
+            btn_idk.Click += btn_idk_click;
             // 
             // btn_exit
             // 
@@ -104,7 +104,6 @@
             btn_start_additionaly_form.Text = "start";
             btn_start_additionaly_form.UseVisualStyleBackColor = true;
             btn_start_additionaly_form.Visible = false;
-            btn_start_additionaly_form.Click += btn_addintionaly_form_Click;
             // 
             // Main_form
             // 
@@ -114,7 +113,7 @@
             Controls.Add(btn_start_additionaly_form);
             Controls.Add(lbl_dop_word);
             Controls.Add(btn_exit);
-            Controls.Add(btn_add_in_new_list);
+            Controls.Add(btn_idk);
             Controls.Add(btn_next_word);
             Controls.Add(textBox1);
             Controls.Add(lbl_word);
@@ -135,7 +134,7 @@
         private Label lbl_word;
         private TextBox textBox1;
         private Button btn_next_word;
-        private Button btn_add_in_new_list;
+        private Button btn_idk;
         private Button btn_exit;
         private Label lbl_dop_word;
         private Button btn_start_additionaly_form;

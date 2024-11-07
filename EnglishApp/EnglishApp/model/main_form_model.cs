@@ -55,24 +55,10 @@ namespace EnglishApp.model
             } else { all_values.label_word = "the end"; }
         }
 
-        public void adding_words_to_new_list()
-        {
-            all_values.additionaly_words.Add(all_values.the_word);
-
-            btn_next();
-        }
-
         public void btn_next()
         {
             all_values.all_words.RemoveAt(random_numb);
             check_if_english();
-        }
-
-        public void opening_additionaly_form(Main_form main_form)
-        {
-            Additionally_form additionaly_form = new Additionally_form();
-            additionaly_form.Show();
-            main_form.Hide();
         }
 
     }
