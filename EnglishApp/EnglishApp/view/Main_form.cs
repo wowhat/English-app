@@ -51,7 +51,7 @@ namespace EnglishApp.view
 
             if (lbl_word.Text == "the end")
             {
-                
+
                 Check();
             }
         }
@@ -80,5 +80,9 @@ namespace EnglishApp.view
             }
         }
 
+        private void lbl_dop_word_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
