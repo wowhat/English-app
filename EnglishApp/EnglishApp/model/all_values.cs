@@ -9,6 +9,7 @@ namespace EnglishApp.model
 {
     class all_values
     {
+        public static int Delay = 1000;
         public static string File_path { get; set; }
         public static List<string> sheet_names = new List<string>();
         public static KeyValuePair<string, string> the_word { get; set; }

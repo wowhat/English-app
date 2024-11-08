@@ -62,14 +62,11 @@ namespace EnglishApp.view
             this.Hide();
         } // working
 
-        public void show_the_additionaly_button()
+        private async void btn_idk_click(object sender, EventArgs e)
         {
-            btn_idk.Enabled = false;
-            btn_start_additionaly_form.Visible = true;
-        }
-
-        private void btn_idk_click(object sender, EventArgs e)
-        {
+            lbl_dop_word.Text = all_values.input_word;
+            await Task.Delay(all_values.Delay);
+            lbl_dop_word.Text = "";
             main_Form_model.check_if_english();
             lbl_word.Text = all_values.label_word;
         }
@@ -80,7 +77,6 @@ namespace EnglishApp.view
             {
                 btn_next_word.Enabled = false;
                 btn_idk.Enabled = false;
-                show_the_additionaly_button();
             }
         }
 

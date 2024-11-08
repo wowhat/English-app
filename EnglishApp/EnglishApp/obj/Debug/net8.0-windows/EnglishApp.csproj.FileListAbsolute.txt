@@ -87,7 +87,6 @@ C:\git_projects\English-app\EnglishApp\EnglishApp\bin\Debug\net8.0-windows\Micro
 C:\git_projects\English-app\EnglishApp\EnglishApp\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
 C:\git_projects\English-app\EnglishApp\EnglishApp\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.csproj.AssemblyReference.cache
-C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.view.Additionally_form.resources
 C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.view.Main_form.resources
 C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.view.Start_form.resources
 C:\git_projects\English-app\EnglishApp\EnglishApp\obj\Debug\net8.0-windows\EnglishApp.csproj.GenerateResource.cache
