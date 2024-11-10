@@ -36,15 +36,17 @@ namespace EnglishApp.view
             class_main_form.changing_the_word();
             main_Form_model.check_if_english();
             lbl_word.Text = all_values.label_word;
+            lbl_count_words.Text = all_values.all_words.Count.ToString();
 
         }
 
         public void btn_next_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.ToLower().Trim() == all_values.input_word.ToLower().Trim())
+            if (tb_input_word.Text.ToLower().Trim() == all_values.input_word.ToLower().Trim())
             {
-                textBox1.Clear();
+                tb_input_word.Clear();
                 main_Form_model.btn_next();
+                lbl_count_words.Text = all_values.all_words.Count.ToString();
 
             }
             lbl_word.Text = all_values.label_word;
@@ -64,11 +66,14 @@ namespace EnglishApp.view
 
         private async void btn_idk_click(object sender, EventArgs e)
         {
+            
             lbl_dop_word.Text = all_values.input_word;
             await Task.Delay(all_values.Delay);
             lbl_dop_word.Text = "";
+            tb_input_word.Text = "";
             main_Form_model.check_if_english();
             lbl_word.Text = all_values.label_word;
+
         }
 
         public void Check()
@@ -78,11 +83,6 @@ namespace EnglishApp.view
                 btn_next_word.Enabled = false;
                 btn_idk.Enabled = false;
             }
-        }
-
-        private void lbl_dop_word_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

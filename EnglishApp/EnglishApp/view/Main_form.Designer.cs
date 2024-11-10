@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             lbl_word = new Label();
-            textBox1 = new TextBox();
+            tb_input_word = new TextBox();
             btn_next_word = new Button();
             btn_idk = new Button();
             btn_exit = new Button();
             lbl_dop_word = new Label();
+            label1 = new Label();
+            lbl_count_words = new Label();
             SuspendLayout();
             // 
             // lbl_word
@@ -46,13 +48,13 @@
             lbl_word.TabIndex = 0;
             lbl_word.Text = "label1";
             // 
-            // textBox1
+            // tb_input_word
             // 
-            textBox1.Font = new Font("Segoe UI", 15F);
-            textBox1.Location = new Point(231, 151);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(270, 34);
-            textBox1.TabIndex = 1;
+            tb_input_word.Font = new Font("Segoe UI", 15F);
+            tb_input_word.Location = new Point(231, 151);
+            tb_input_word.Name = "tb_input_word";
+            tb_input_word.Size = new Size(270, 34);
+            tb_input_word.TabIndex = 1;
             // 
             // btn_next_word
             // 
@@ -95,7 +97,23 @@
             lbl_dop_word.Name = "lbl_dop_word";
             lbl_dop_word.Size = new Size(0, 25);
             lbl_dop_word.TabIndex = 5;
-            lbl_dop_word.Click += lbl_dop_word_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(623, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(73, 15);
+            label1.TabIndex = 6;
+            label1.Text = "count words";
+            // 
+            // lbl_count_words
+            // 
+            lbl_count_words.AutoSize = true;
+            lbl_count_words.Location = new Point(702, 28);
+            lbl_count_words.Name = "lbl_count_words";
+            lbl_count_words.Size = new Size(0, 15);
+            lbl_count_words.TabIndex = 7;
             // 
             // Main_form
             // 
@@ -103,11 +121,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbl_count_words);
+            Controls.Add(label1);
             Controls.Add(lbl_dop_word);
             Controls.Add(btn_exit);
             Controls.Add(btn_idk);
             Controls.Add(btn_next_word);
-            Controls.Add(textBox1);
+            Controls.Add(tb_input_word);
             Controls.Add(lbl_word);
             Name = "Main_form";
             Text = "Main_form";
@@ -124,11 +144,13 @@
         #endregion
 
         private Label lbl_word;
-        private TextBox textBox1;
+        private TextBox tb_input_word;
         private Button btn_next_word;
         private Button btn_idk;
         private Button btn_exit;
         private Label lbl_dop_word;
         private Button btn_start_additionaly_form;
+        private Label label1;
+        private Label lbl_count_words;
     }
 }
