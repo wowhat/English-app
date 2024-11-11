@@ -25,7 +25,7 @@ namespace EnglishApp.view
 
         public void Start_form_Load(object send, EventArgs e)
         {
-
+            all_values.all_words.Clear();
         }
 
 
