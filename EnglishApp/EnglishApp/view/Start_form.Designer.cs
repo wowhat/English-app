@@ -37,12 +37,12 @@
             // 
             // btn_open_file
             // 
-            btn_open_file.Location = new Point(652, 218);
+            btn_open_file.Location = new Point(663, 214);
             btn_open_file.Margin = new Padding(4, 5, 4, 5);
             btn_open_file.Name = "btn_open_file";
             btn_open_file.Size = new Size(227, 57);
             btn_open_file.TabIndex = 1;
-            btn_open_file.Text = "Open File";
+            btn_open_file.Text = "Open Files";
             btn_open_file.UseVisualStyleBackColor = true;
             btn_open_file.Click += btn_open_file_Click;
             // 

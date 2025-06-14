@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\git_project\\English-app\\EnglishApp\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|d:\\git_project\\english-app\\englishapp\\englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+=======
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_project\\english-app\\englishapp\\englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+>>>>>>> 2be6a2b3d3d242c0bfb481800bdcf0e5387636ad
       "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -52,6 +56,22 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+<<<<<<< HEAD
+=======
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Start_form.Designer.cs",
+              "DocumentMoniker": "C:\\git_project\\English-app\\EnglishApp\\EnglishApp\\view\\Start_form.Designer.cs",
+              "RelativeDocumentMoniker": "EnglishApp\\view\\Start_form.Designer.cs",
+              "ToolTip": "C:\\git_project\\English-app\\EnglishApp\\EnglishApp\\view\\Start_form.Designer.cs",
+              "RelativeToolTip": "EnglishApp\\view\\Start_form.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T08:33:06.372Z",
+              "EditorCaption": ""
+            },
+            {
+>>>>>>> 2be6a2b3d3d242c0bfb481800bdcf0e5387636ad
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Start_form.Designer.cs",
