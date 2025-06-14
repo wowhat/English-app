@@ -28,28 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lbl_start = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start_form));
             btn_open_file = new Button();
             cmb_choosing_name_list = new ComboBox();
             cmb_choosing_lang = new ComboBox();
             btn_start = new Button();
             SuspendLayout();
             // 
-            // lbl_start
-            // 
-            lbl_start.AutoSize = true;
-            lbl_start.Font = new Font("Segoe UI", 35F);
-            lbl_start.Location = new Point(325, 45);
-            lbl_start.Name = "lbl_start";
-            lbl_start.Size = new Size(122, 62);
-            lbl_start.TabIndex = 0;
-            lbl_start.Text = "Start";
-            // 
             // btn_open_file
             // 
-            btn_open_file.Location = new Point(307, 147);
+            btn_open_file.Location = new Point(652, 218);
+            btn_open_file.Margin = new Padding(4, 5, 4, 5);
             btn_open_file.Name = "btn_open_file";
-            btn_open_file.Size = new Size(159, 34);
+            btn_open_file.Size = new Size(227, 57);
             btn_open_file.TabIndex = 1;
             btn_open_file.Text = "Open File";
             btn_open_file.UseVisualStyleBackColor = true;
@@ -58,18 +49,20 @@
             // cmb_choosing_name_list
             // 
             cmb_choosing_name_list.FormattingEnabled = true;
-            cmb_choosing_name_list.Location = new Point(308, 203);
+            cmb_choosing_name_list.Location = new Point(652, 326);
+            cmb_choosing_name_list.Margin = new Padding(4, 5, 4, 5);
             cmb_choosing_name_list.Name = "cmb_choosing_name_list";
-            cmb_choosing_name_list.Size = new Size(159, 23);
+            cmb_choosing_name_list.Size = new Size(225, 33);
             cmb_choosing_name_list.TabIndex = 2;
             cmb_choosing_name_list.SelectedIndexChanged += cmb_choosing_name_list_SelectedIndexChanged;
             // 
             // cmb_choosing_lang
             // 
             cmb_choosing_lang.FormattingEnabled = true;
-            cmb_choosing_lang.Location = new Point(308, 246);
+            cmb_choosing_lang.Location = new Point(652, 405);
+            cmb_choosing_lang.Margin = new Padding(4, 5, 4, 5);
             cmb_choosing_lang.Name = "cmb_choosing_lang";
-            cmb_choosing_lang.Size = new Size(159, 23);
+            cmb_choosing_lang.Size = new Size(225, 33);
             cmb_choosing_lang.TabIndex = 3;
             cmb_choosing_lang.SelectedIndexChanged += cmb_choosing_lang_SelectedIndexChanged;
             // 
@@ -79,10 +72,10 @@
             btn_start.FlatStyle = FlatStyle.System;
             btn_start.Font = new Font("Segoe UI", 9F);
             btn_start.ForeColor = SystemColors.ControlText;
-            btn_start.Location = new Point(333, 286);
-            btn_start.Margin = new Padding(3, 2, 3, 2);
+            btn_start.Location = new Point(682, 486);
+            btn_start.Margin = new Padding(4, 3, 4, 3);
             btn_start.Name = "btn_start";
-            btn_start.Size = new Size(111, 26);
+            btn_start.Size = new Size(159, 43);
             btn_start.TabIndex = 4;
             btn_start.Text = "start";
             btn_start.UseVisualStyleBackColor = true;
@@ -90,19 +83,19 @@
             // 
             // Start_form
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(938, 635);
             Controls.Add(btn_start);
             Controls.Add(cmb_choosing_lang);
             Controls.Add(cmb_choosing_name_list);
             Controls.Add(btn_open_file);
-            Controls.Add(lbl_start);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Start_form";
             Text = "Start_form";
             Load += Start_form_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         private void Btn_start_Click(object sender, EventArgs e)
@@ -111,8 +104,6 @@
         }
 
         #endregion
-
-        private Label lbl_start;
         private Button btn_open_file;
         private ComboBox cmb_choosing_name_list;
         private ComboBox cmb_choosing_lang;
