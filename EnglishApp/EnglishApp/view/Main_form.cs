@@ -66,7 +66,7 @@ namespace EnglishApp.view
 
         private async void btn_idk_click(object sender, EventArgs e)
         {
-            
+
             lbl_dop_word.Text = all_values.input_word;
             await Task.Delay(all_values.Delay);
             lbl_dop_word.Text = "";
@@ -83,6 +83,11 @@ namespace EnglishApp.view
                 btn_next_word.Enabled = false;
                 btn_idk.Enabled = false;
             }
+        }
+
+        private void tb_input_word_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

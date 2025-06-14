@@ -41,6 +41,7 @@
             // lbl_word
             // 
             lbl_word.AutoSize = true;
+            lbl_word.BackColor = Color.LightCyan;
             lbl_word.Font = new Font("Segoe UI", 25F);
             lbl_word.Location = new Point(231, 51);
             lbl_word.Name = "lbl_word";
@@ -50,15 +51,21 @@
             // 
             // tb_input_word
             // 
+            tb_input_word.BackColor = Color.White;
+            tb_input_word.BorderStyle = BorderStyle.FixedSingle;
             tb_input_word.Font = new Font("Segoe UI", 15F);
-            tb_input_word.Location = new Point(231, 151);
+            tb_input_word.Location = new Point(231, 162);
             tb_input_word.Name = "tb_input_word";
             tb_input_word.Size = new Size(270, 34);
             tb_input_word.TabIndex = 1;
+            tb_input_word.TextChanged += tb_input_word_TextChanged;
             // 
             // btn_next_word
             // 
-            btn_next_word.BackColor = Color.Transparent;
+            btn_next_word.BackColor = Color.White;
+            btn_next_word.BackgroundImageLayout = ImageLayout.None;
+            btn_next_word.FlatAppearance.BorderColor = Color.Black;
+            btn_next_word.FlatAppearance.BorderSize = 10;
             btn_next_word.Location = new Point(378, 258);
             btn_next_word.Name = "btn_next_word";
             btn_next_word.Size = new Size(123, 35);
@@ -119,7 +126,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
+            BackColor = Color.LightCyan;
             ClientSize = new Size(800, 450);
             Controls.Add(lbl_count_words);
             Controls.Add(label1);
