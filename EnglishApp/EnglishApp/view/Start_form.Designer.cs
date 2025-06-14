@@ -40,9 +40,10 @@
             btn_open_file.BackColor = Color.PaleTurquoise;
             btn_open_file.Font = new Font("Yu Gothic", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
             btn_open_file.ForeColor = Color.Black;
-            btn_open_file.Location = new Point(685, 217);
+            btn_open_file.Location = new Point(625, 214);
+            btn_open_file.Margin = new Padding(4, 5, 4, 5);
             btn_open_file.Name = "btn_open_file";
-            btn_open_file.Size = new Size(183, 39);
+            btn_open_file.Size = new Size(261, 65);
             btn_open_file.TabIndex = 1;
             btn_open_file.Text = "Open Files";
             btn_open_file.UseVisualStyleBackColor = false;
@@ -52,9 +53,10 @@
             // 
             cmb_choosing_name_list.Font = new Font("Franklin Gothic Medium", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
             cmb_choosing_name_list.FormattingEnabled = true;
-            cmb_choosing_name_list.Location = new Point(685, 305);
+            cmb_choosing_name_list.Location = new Point(625, 333);
+            cmb_choosing_name_list.Margin = new Padding(4, 5, 4, 5);
             cmb_choosing_name_list.Name = "cmb_choosing_name_list";
-            cmb_choosing_name_list.Size = new Size(183, 24);
+            cmb_choosing_name_list.Size = new Size(260, 31);
             cmb_choosing_name_list.TabIndex = 2;
             cmb_choosing_name_list.SelectedIndexChanged += cmb_choosing_name_list_SelectedIndexChanged;
             // 
@@ -62,9 +64,10 @@
             // 
             cmb_choosing_lang.Font = new Font("Franklin Gothic Medium", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
             cmb_choosing_lang.FormattingEnabled = true;
-            cmb_choosing_lang.Location = new Point(685, 369);
+            cmb_choosing_lang.Location = new Point(626, 416);
+            cmb_choosing_lang.Margin = new Padding(4, 5, 4, 5);
             cmb_choosing_lang.Name = "cmb_choosing_lang";
-            cmb_choosing_lang.Size = new Size(183, 24);
+            cmb_choosing_lang.Size = new Size(260, 31);
             cmb_choosing_lang.TabIndex = 3;
             cmb_choosing_lang.SelectedIndexChanged += cmb_choosing_lang_SelectedIndexChanged;
             // 
@@ -76,10 +79,10 @@
             btn_start.FlatStyle = FlatStyle.System;
             btn_start.Font = new Font("Franklin Gothic Medium", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             btn_start.ForeColor = Color.AntiqueWhite;
-            btn_start.Location = new Point(685, 440);
-            btn_start.Margin = new Padding(3, 2, 3, 2);
+            btn_start.Location = new Point(626, 503);
+            btn_start.Margin = new Padding(4, 3, 4, 3);
             btn_start.Name = "btn_start";
-            btn_start.Size = new Size(183, 43);
+            btn_start.Size = new Size(261, 72);
             btn_start.TabIndex = 4;
             btn_start.Text = "start";
             btn_start.UseVisualStyleBackColor = false;
@@ -87,14 +90,15 @@
             // 
             // Start_form
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(933, 609);
+            ClientSize = new Size(937, 599);
             Controls.Add(btn_start);
             Controls.Add(cmb_choosing_lang);
             Controls.Add(cmb_choosing_name_list);
             Controls.Add(btn_open_file);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Start_form";
             Text = " ";
             Load += Start_form_Load;
