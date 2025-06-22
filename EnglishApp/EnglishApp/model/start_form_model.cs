@@ -1,45 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OfficeOpenXml;
-using OfficeOpenXml.ConditionalFormatting.Contracts;
 using EnglishApp.view;
+using MySql.Data.MySqlClient;
+using System.Configuration;
+
+
+
 namespace EnglishApp.model
 {
+
     class start_form_model
     {
-        public void set_file_path(string file_path)
-        {
-            all_values.File_path = file_path;
-        }
+        Start_form start_form = new Start_form();
 
-        public void Reading_names()
+        public void Connection_db(TextBox lb1)
         {
-            using (ExcelPackage excelPackage = new ExcelPackage(new System.IO.FileInfo(all_values.File_path)))
+            string connection_string = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+
+            using (var connection = new MySqlConnection(connection_string))
             {
-               
-                ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
-
-                ExcelWorkbook workbook = excelPackage.Workbook;
-
-                foreach (var worksheet in workbook.Worksheets)
-                {
-                    all_values.sheet_names.Add(worksheet.Name);
+                
+                try
+                {                    
+                    connection.Open();
+                    lb1.Text = "succesfull";
                 }
+                catch (Exception ex){lb1.Text = ex.ToString(); }
                 
             }
         }
 
-        public void choosing_lang()
-        {
-            string[] arr_lang = { "rus", "eng" };
+        // выбор языка устарело
+        /* public void choosing_lang()
+         {
+             string[] arr_lang = { "rus", "eng" };
 
-            foreach (string item in arr_lang)
-            {
-                all_values.language_list.Add(item);
-            }
-        }
+             foreach (string item in arr_lang)
+             {
+                 all_values.language_list.Add(item);
+             }
+         }*/
     }
 }

@@ -32,7 +32,7 @@ namespace EnglishApp.view
         {
 
             main_Form_model.reading_words();
-            CLASS_main_form class_main_form = new CLASS_main_form();
+            controller_main_form class_main_form = new controller_main_form();
             class_main_form.changing_the_word();
             main_Form_model.check_if_english();
             lbl_word.Text = all_values.label_word;
