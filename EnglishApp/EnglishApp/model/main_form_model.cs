@@ -4,14 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-using OfficeOpenXml;
-using EnglishApp.view;
-using OfficeOpenXml.ConditionalFormatting.Contracts;
 using EnglishApp.view;
 
 namespace EnglishApp.model
 {
-    class main_form_model
+/*    class main_form_model
     {
 
         static Random random = new Random();
@@ -62,4 +59,4 @@ namespace EnglishApp.model
         }
 
     }
-}
+*/}

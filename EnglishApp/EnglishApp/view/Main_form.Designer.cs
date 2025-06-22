@@ -58,7 +58,7 @@
             tb_input_word.Name = "tb_input_word";
             tb_input_word.Size = new Size(270, 34);
             tb_input_word.TabIndex = 1;
-            tb_input_word.TextChanged += tb_input_word_TextChanged;
+            //tb_input_word.TextChanged += tb_input_word_TextChanged;
             // 
             // btn_next_word
             // 
@@ -72,7 +72,7 @@
             btn_next_word.TabIndex = 2;
             btn_next_word.Text = "next";
             btn_next_word.UseVisualStyleBackColor = false;
-            btn_next_word.Click += btn_next_Click;
+           //btn_next_word.Click += btn_next_Click;
             // 
             // btn_idk
             // 
@@ -82,7 +82,7 @@
             btn_idk.TabIndex = 3;
             btn_idk.Text = "idk";
             btn_idk.UseVisualStyleBackColor = true;
-            btn_idk.Click += btn_idk_click;
+            //btn_idk.Click += btn_idk_click;
             // 
             // btn_exit
             // 
@@ -93,7 +93,7 @@
             btn_exit.TabIndex = 4;
             btn_exit.Text = "exit";
             btn_exit.UseVisualStyleBackColor = true;
-            btn_exit.Click += btn_exit_Click;
+            //btn_exit.Click += btn_exit_Click;
             // 
             // lbl_dop_word
             // 
@@ -138,7 +138,7 @@
             Controls.Add(lbl_word);
             Name = "Main_form";
             Text = "Main_form";
-            Load += Main_form_load;
+            //Load += Main_form_load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -10,7 +10,7 @@ namespace EnglishApp.Controller
 {
     class controller_main_form
     {
-        main_form_model main_Form_Model = new main_form_model();
+       /* main_form_model main_Form_Model = new main_form_model();
 
         public void changing_the_word()
         {
@@ -25,7 +25,7 @@ namespace EnglishApp.Controller
                     all_values.isEnglish = false;
                     break;
             }
-        }
+        }*/
 
         public void checking_opening_additionaly_form()
         {

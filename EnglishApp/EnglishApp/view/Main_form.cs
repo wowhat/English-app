@@ -11,7 +11,6 @@ using System.Windows.Forms;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Xml.Serialization;
-using OfficeOpenXml.Drawing.Slicer.Style;
 
 
 namespace EnglishApp.view
@@ -26,11 +25,11 @@ namespace EnglishApp.view
         }
 
 
-        main_form_model main_Form_model = new main_form_model();
+        /*main_form_model main_Form_model = new main_form_model();*/
 
-        public void Main_form_load(Object sender, EventArgs e)
-        {
-
+/*        public void Main_form_load(Object sender, EventArgs e)
+        {*/
+/*
             main_Form_model.reading_words();
             controller_main_form class_main_form = new controller_main_form();
             class_main_form.changing_the_word();
@@ -88,6 +87,6 @@ namespace EnglishApp.view
         private void tb_input_word_TextChanged(object sender, EventArgs e)
         {
 
-        }
+        }*/
     }
 }

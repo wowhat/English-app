@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EnglishApp.Controller;
 using EnglishApp.model;
-using Microsoft.Extensions.FileProviders;
 using ZstdSharp.Unsafe;
 
 namespace EnglishApp.view
