@@ -11,9 +11,6 @@ namespace EnglishApp.model
 
     class start_form_model
     {
-      
-        Start_form start_form = new Start_form();
-
         public string check_connection()
         {
             try
@@ -38,7 +35,7 @@ namespace EnglishApp.model
             string db_name = Env.GetString("MYSQL_DATABASE");
 
             
-            return $"Server={host};Port={port};Database={db_name};User={user};Password={password}";
+           return $"Server={host};Port={port};Database={db_name};User={user};Password={password}; ";
         }
         public void Connection_db(TextBox lb1)
         {
@@ -55,7 +52,7 @@ namespace EnglishApp.model
                 }
                 catch (Exception ex)
                 {
-                    lb1.Text = connection_string;
+                    lb1.Text = ex.Message;
                 }
 
             }
