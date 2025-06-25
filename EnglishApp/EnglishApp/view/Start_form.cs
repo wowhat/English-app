@@ -15,14 +15,22 @@ namespace EnglishApp.view
 {
     public partial class Start_form : Form
     {
+
         public Start_form()
         {
             InitializeComponent();
         }
+
         public void Start_form_load(object sender, EventArgs e)
         {
             start_form_model Start_form_model = new start_form_model();
-            Start_form_model.Connection_db(error_message_connectionDB);
+
+            if(!Start_form_model.Connection_db(out string error))
+            {
+                error_connection_message.Visible = true;
+                more_detailed.Visible = true;
+                show_more_detailed.Text = error;
+            }
         }
 
         /* public void bnt_open_file()
@@ -81,6 +89,20 @@ namespace EnglishApp.view
             Main_form main_form = new Main_form();
             this.Hide();
             main_form.Show();
+        }
+        private void lbl_more_detailed_click(object sender, EventArgs e)
+        {
+
+            if (show_more_detailed.Visible == true)
+            {
+                more_detailed.Text = "Подробнее";
+                show_more_detailed.Visible = false;
+            }
+            else if (show_more_detailed.Visible == false)
+            {
+                show_more_detailed.Visible = true;
+                more_detailed.Text = "Скрыть";
+            }
         }
 
     

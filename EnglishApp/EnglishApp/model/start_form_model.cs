@@ -3,6 +3,7 @@ using EnglishApp.view;
 using MySql.Data.MySqlClient;
 using System.Configuration;
 using DotNetEnv;
+using K4os.Compression.LZ4.Encoders;
 
 
 
@@ -28,7 +29,7 @@ namespace EnglishApp.model
         {
             Env.Load();
 
-            string host = Env.GetString("MYSQL_HOST");
+            string host = Env.GetString("MYSQL_HOSTs");
             string port = Env.GetString("MYSQL_PORT");
             string password = Env.GetString("MYSQL_PASSWORD");
             string user = Env.GetString("MYSQL_USER");
@@ -37,7 +38,7 @@ namespace EnglishApp.model
             
            return $"Server={host};Port={port};Database={db_name};User={user};Password={password}; ";
         }
-        public void Connection_db(TextBox lb1)
+        public bool Connection_db(out string error_message)
         {
 
             string connection_string = check_connection();
@@ -48,11 +49,15 @@ namespace EnglishApp.model
                 try
                 {
                     connection.Open();
-                    lb1.Text = "succesfull";
+                    error_message = "succes";
+                    return true;
+
+                    
                 }
                 catch (Exception ex)
                 {
-                    lb1.Text = ex.Message;
+                    error_message = ex.Message;
+                    return false;
                 }
 
             }

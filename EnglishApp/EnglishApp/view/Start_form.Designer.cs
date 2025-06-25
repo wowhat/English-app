@@ -32,24 +32,58 @@ namespace EnglishApp.view
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start_form));
             btn_start = new Button();
-            error_message_connectionDB = new TextBox();
+            error_connection_message = new Label();
+            more_detailed = new Label();
+            show_more_detailed = new TextBox();
             SuspendLayout();
             // 
             // btn_start
             // 
-            btn_start.Location = new Point(646, 298);
+            btn_start.Font = new Font("Franklin Gothic Medium", 14F);
+            btn_start.Location = new Point(646, 299);
             btn_start.Name = "btn_start";
             btn_start.Size = new Size(225, 86);
             btn_start.TabIndex = 6;
-            btn_start.Text = "button1";
+            btn_start.Text = "Start";
             btn_start.UseVisualStyleBackColor = true;
             // 
-            // error_message_connectionDB
+            // error_connection_message
             // 
-            error_message_connectionDB.Location = new Point(591, 447);
-            error_message_connectionDB.Name = "error_message_connectionDB";
-            error_message_connectionDB.Size = new Size(280, 27);
-            error_message_connectionDB.TabIndex = 7;
+            error_connection_message.AutoSize = true;
+            error_connection_message.BackColor = Color.Transparent;
+            error_connection_message.Font = new Font("Segoe UI", 12F);
+            error_connection_message.ForeColor = Color.Red;
+            error_connection_message.Location = new Point(28, 43);
+            error_connection_message.Name = "error_connection_message";
+            error_connection_message.Size = new Size(351, 28);
+            error_connection_message.TabIndex = 7;
+            error_connection_message.Text = "Подключение к базе не определено ";
+            error_connection_message.Visible = false;
+            // 
+            // more_detailed
+            // 
+            more_detailed.AutoSize = true;
+            more_detailed.BackColor = Color.Transparent;
+            more_detailed.Font = new Font("Segoe UI", 10F);
+            more_detailed.Location = new Point(260, 84);
+            more_detailed.Name = "more_detailed";
+            more_detailed.Size = new Size(99, 23);
+            more_detailed.TabIndex = 8;
+            more_detailed.Text = "Подробнее";
+            more_detailed.Visible = false;
+            // 
+            // show_more_detailed
+            // 
+            show_more_detailed.BackColor = SystemColors.InactiveBorder;
+            show_more_detailed.BorderStyle = BorderStyle.FixedSingle;
+            show_more_detailed.Location = new Point(29, 136);
+            show_more_detailed.Multiline = true;
+            show_more_detailed.Name = "show_more_detailed";
+            show_more_detailed.ReadOnly = true;
+            show_more_detailed.Size = new Size(344, 98);
+            show_more_detailed.TabIndex = 9;
+            show_more_detailed.Visible = false;
+            more_detailed.Click += lbl_more_detailed_click;
             // 
             // Start_form
             // 
@@ -57,7 +91,9 @@ namespace EnglishApp.view
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(922, 597);
-            Controls.Add(error_message_connectionDB);
+            Controls.Add(show_more_detailed);
+            Controls.Add(more_detailed);
+            Controls.Add(error_connection_message);
             Controls.Add(btn_start);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Start_form";
@@ -67,6 +103,7 @@ namespace EnglishApp.view
             ResumeLayout(false);
             PerformLayout();
         }
+
 
         private void Btn_start(object sender, EventArgs e)
         {
@@ -80,6 +117,8 @@ namespace EnglishApp.view
 
         #endregion
         private Button btn_start;
-        private TextBox error_message_connectionDB;
+        private Label error_connection_message;
+        private Label more_detailed;
+        private TextBox show_more_detailed;
     }
 }
