@@ -71,6 +71,7 @@ namespace EnglishApp.view
             more_detailed.TabIndex = 8;
             more_detailed.Text = "Подробнее";
             more_detailed.Visible = false;
+            more_detailed.Click += lbl_more_detailed_click;
             // 
             // show_more_detailed
             // 
@@ -83,7 +84,6 @@ namespace EnglishApp.view
             show_more_detailed.Size = new Size(344, 98);
             show_more_detailed.TabIndex = 9;
             show_more_detailed.Visible = false;
-            more_detailed.Click += lbl_more_detailed_click;
             // 
             // Start_form
             // 

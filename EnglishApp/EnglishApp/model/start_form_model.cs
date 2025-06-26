@@ -29,7 +29,7 @@ namespace EnglishApp.model
         {
             Env.Load();
 
-            string host = Env.GetString("MYSQL_HOSTs");
+            string host = Env.GetString("MYSQL_HOST");
             string port = Env.GetString("MYSQL_PORT");
             string password = Env.GetString("MYSQL_PASSWORD");
             string user = Env.GetString("MYSQL_USER");
