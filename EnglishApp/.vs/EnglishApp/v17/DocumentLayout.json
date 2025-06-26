@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\git_project\\English-app\\EnglishApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|C:\\git_project\\English-app\\EnglishApp\\englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_project\\english-app\\englishapp\\englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\start_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|c:\\git_project\\english-app\\englishapp\\englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|C:\\git_project\\English-app\\EnglishApp\\englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{919FA6C8-FDDD-4E04-B289-916A2FC3FE2C}|EnglishApp\\EnglishApp.csproj|solutionrelative:englishapp\\view\\main_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -49,8 +49,7 @@
               "ToolTip": "C:\\git_project\\English-app\\EnglishApp\\EnglishApp\\view\\Main_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "EnglishApp\\view\\Main_form.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T16:49:15.03Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-06-26T16:49:15.03Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "EnglishApp\\model\\start_form_model.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:25:16.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T16:25:16.616Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "EnglishApp\\view\\Main_form.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T15:39:37.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T15:39:37.098Z"
             }
           ]
         }
