@@ -87,8 +87,7 @@ namespace EnglishApp.view
             // 
             // Start_form
             // 
-            AutoScaleDimensions = new SizeF(120F, 120F);
-            AutoScaleMode = AutoScaleMode.Dpi;
+            AutoScaleMode = AutoScaleMode.None;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(922, 597);
             Controls.Add(show_more_detailed);
@@ -96,6 +95,7 @@ namespace EnglishApp.view
             Controls.Add(error_connection_message);
             Controls.Add(btn_start);
             Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
             MaximumSize = new Size(940, 644);
             MinimumSize = new Size(940, 644);
             Name = "Start_form";
