@@ -80,31 +80,34 @@ namespace EnglishApp.view
             // btn_start
             // 
             btn_start.BackColor = Color.Transparent;
+            btn_start.Cursor = Cursors.Hand;
             btn_start.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             btn_start.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btn_start.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btn_start.FlatStyle = FlatStyle.Flat;
-            btn_start.Location = new Point(667, 321);
+            btn_start.Location = new Point(402, 287);
             btn_start.Name = "btn_start";
-            btn_start.Size = new Size(234, 54);
+            btn_start.Size = new Size(216, 50);
             btn_start.TabIndex = 10;
             btn_start.UseVisualStyleBackColor = false;
+            btn_start.Click += btn_start_click;
             // 
             // Start_form
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.GradientActiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(924, 605);
+            ClientSize = new Size(940, 601);
             Controls.Add(show_more_detailed);
             Controls.Add(more_detailed);
             Controls.Add(error_connection_message);
             Controls.Add(btn_start);
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
-            MaximumSize = new Size(940, 644);
-            MinimumSize = new Size(940, 644);
+            MaximumSize = new Size(956, 640);
+            MinimumSize = new Size(956, 640);
             Name = "Start_form";
+            RightToLeftLayout = true;
             StartPosition = FormStartPosition.CenterParent;
             Text = " ";
             Load += Start_form_load;

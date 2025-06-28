@@ -31,6 +31,7 @@ namespace EnglishApp.view
                 more_detailed.Visible = true;
                 show_more_detailed.Text = error;
             }
+            btn_start_is_enabled(); // доступность нажатия кнопки
         }
 
 
@@ -80,7 +81,7 @@ namespace EnglishApp.view
 
         private void btn_start_is_enabled()
         {
-            if (all_values.choosed_lang != null && all_values.choosed_list != null)
+            if (show_more_detailed.Text == string.Empty)
             {
                 btn_start.Enabled = true;
             }
