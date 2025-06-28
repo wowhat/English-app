@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HT+zzeSCMf8=",
+  "dgSpecHash": "3NldnFpWujQ=",
   "success": true,
-  "projectFilePath": "C:\\git_project\\English-app\\EnglishApp\\EnglishApp\\EnglishApp.csproj",
+  "projectFilePath": "D:\\git_project\\English-app\\EnglishApp\\EnglishApp\\EnglishApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
@@ -102,15 +102,5 @@
     "C:\\Users\\User\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\git_project\\English-app\\EnglishApp\\EnglishApp\\EnglishApp.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\git_project\\English-app\\EnglishApp\\EnglishApp\\EnglishApp.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
