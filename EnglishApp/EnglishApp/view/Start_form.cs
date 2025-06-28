@@ -33,6 +33,8 @@ namespace EnglishApp.view
             }
         }
 
+
+
         /* public void bnt_open_file()
          {
              class_btn_open_file.open_file();
@@ -75,6 +77,7 @@ namespace EnglishApp.view
             choose_language(); // выбор языкa
         }*/ // кнопка открытия файла не нужна (для старой версии с excel)
 
+
         private void btn_start_is_enabled()
         {
             if (all_values.choosed_lang != null && all_values.choosed_list != null)
@@ -90,6 +93,7 @@ namespace EnglishApp.view
             this.Hide();
             main_form.Show();
         }
+        // метод для показа подробности ошибки
         private void lbl_more_detailed_click(object sender, EventArgs e)
         {
 

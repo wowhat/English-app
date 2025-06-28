@@ -1,4 +1,6 @@
-﻿using EnglishApp.model;
+﻿using System.Drawing.Drawing2D;
+using System.Net.NetworkInformation;
+using EnglishApp.model;
 
 namespace EnglishApp.view
 {
@@ -31,21 +33,11 @@ namespace EnglishApp.view
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start_form));
-            btn_start = new Button();
             error_connection_message = new Label();
             more_detailed = new Label();
             show_more_detailed = new TextBox();
+            btn_start = new Button();
             SuspendLayout();
-            // 
-            // btn_start
-            // 
-            btn_start.Font = new Font("Franklin Gothic Medium", 14F);
-            btn_start.Location = new Point(646, 299);
-            btn_start.Name = "btn_start";
-            btn_start.Size = new Size(225, 86);
-            btn_start.TabIndex = 6;
-            btn_start.Text = "Start";
-            btn_start.UseVisualStyleBackColor = true;
             // 
             // error_connection_message
             // 
@@ -55,7 +47,7 @@ namespace EnglishApp.view
             error_connection_message.ForeColor = Color.Red;
             error_connection_message.Location = new Point(28, 43);
             error_connection_message.Name = "error_connection_message";
-            error_connection_message.Size = new Size(351, 28);
+            error_connection_message.Size = new Size(274, 21);
             error_connection_message.TabIndex = 7;
             error_connection_message.Text = "Подключение к базе не определено ";
             error_connection_message.Visible = false;
@@ -67,7 +59,7 @@ namespace EnglishApp.view
             more_detailed.Font = new Font("Segoe UI", 10F);
             more_detailed.Location = new Point(260, 84);
             more_detailed.Name = "more_detailed";
-            more_detailed.Size = new Size(99, 23);
+            more_detailed.Size = new Size(81, 19);
             more_detailed.TabIndex = 8;
             more_detailed.Text = "Подробнее";
             more_detailed.Visible = false;
@@ -85,11 +77,25 @@ namespace EnglishApp.view
             show_more_detailed.TabIndex = 9;
             show_more_detailed.Visible = false;
             // 
+            // btn_start
+            // 
+            btn_start.BackColor = Color.Transparent;
+            btn_start.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
+            btn_start.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn_start.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn_start.FlatStyle = FlatStyle.Flat;
+            btn_start.Location = new Point(667, 321);
+            btn_start.Name = "btn_start";
+            btn_start.Size = new Size(234, 54);
+            btn_start.TabIndex = 10;
+            btn_start.UseVisualStyleBackColor = false;
+            // 
             // Start_form
             // 
             AutoScaleMode = AutoScaleMode.None;
+            BackColor = SystemColors.GradientActiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(922, 597);
+            ClientSize = new Size(924, 605);
             Controls.Add(show_more_detailed);
             Controls.Add(more_detailed);
             Controls.Add(error_connection_message);
@@ -117,10 +123,11 @@ namespace EnglishApp.view
             throw new NotImplementedException();
         }
 
+
         #endregion
-        private Button btn_start;
         private Label error_connection_message;
         private Label more_detailed;
         private TextBox show_more_detailed;
+        private Button btn_start;
     }
 }
