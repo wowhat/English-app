@@ -37,6 +37,7 @@ namespace EnglishApp.view
             more_detailed = new Label();
             show_more_detailed = new TextBox();
             btn_start = new Button();
+            cb_selection_lang = new ComboBox();
             SuspendLayout();
             // 
             // error_connection_message
@@ -69,7 +70,7 @@ namespace EnglishApp.view
             // 
             show_more_detailed.BackColor = SystemColors.InactiveBorder;
             show_more_detailed.BorderStyle = BorderStyle.FixedSingle;
-            show_more_detailed.Location = new Point(29, 136);
+            show_more_detailed.Location = new Point(28, 130);
             show_more_detailed.Multiline = true;
             show_more_detailed.Name = "show_more_detailed";
             show_more_detailed.ReadOnly = true;
@@ -92,12 +93,22 @@ namespace EnglishApp.view
             btn_start.UseVisualStyleBackColor = false;
             btn_start.Click += btn_start_click;
             // 
+            // cb_selection_lang
+            // 
+            cb_selection_lang.FormattingEnabled = true;
+            cb_selection_lang.Location = new Point(437, 381);
+            cb_selection_lang.Name = "cb_selection_lang";
+            cb_selection_lang.Size = new Size(149, 23);
+            cb_selection_lang.TabIndex = 11;
+            cb_selection_lang.SelectedIndexChanged += cb_selection_lang_SelectedIndexChanged;
+            // 
             // Start_form
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.GradientActiveCaption;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(940, 601);
+            Controls.Add(cb_selection_lang);
             Controls.Add(show_more_detailed);
             Controls.Add(more_detailed);
             Controls.Add(error_connection_message);
@@ -108,7 +119,7 @@ namespace EnglishApp.view
             MinimumSize = new Size(956, 640);
             Name = "Start_form";
             RightToLeftLayout = true;
-            StartPosition = FormStartPosition.CenterParent;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = " ";
             Load += Start_form_load;
             ResumeLayout(false);
@@ -132,5 +143,6 @@ namespace EnglishApp.view
         private Label more_detailed;
         private TextBox show_more_detailed;
         private Button btn_start;
+        private ComboBox cb_selection_lang;
     }
 }

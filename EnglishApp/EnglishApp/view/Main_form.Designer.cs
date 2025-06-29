@@ -36,8 +36,9 @@ namespace EnglishApp.view
             btn_next_word = new Button();
             btn_idk = new Button();
             btn_exit = new Button();
-            lbl_dop_word = new Label();
+            lbl_translate = new Label();
             lbl_count_words = new Label();
+            lbl_example = new Label();
             SuspendLayout();
             // 
             // lbl_word
@@ -45,7 +46,7 @@ namespace EnglishApp.view
             lbl_word.AutoSize = true;
             lbl_word.BackColor = Color.Transparent;
             lbl_word.Font = new Font("Yu Gothic", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            lbl_word.Location = new Point(275, 167);
+            lbl_word.Location = new Point(275, 108);
             lbl_word.Name = "lbl_word";
             lbl_word.Size = new Size(95, 35);
             lbl_word.TabIndex = 0;
@@ -56,7 +57,7 @@ namespace EnglishApp.view
             tb_input_word.BackColor = SystemColors.HighlightText;
             tb_input_word.BorderStyle = BorderStyle.FixedSingle;
             tb_input_word.Font = new Font("Segoe UI", 15F);
-            tb_input_word.Location = new Point(275, 246);
+            tb_input_word.Location = new Point(275, 225);
             tb_input_word.Name = "tb_input_word";
             tb_input_word.Size = new Size(397, 34);
             tb_input_word.TabIndex = 1;
@@ -75,6 +76,7 @@ namespace EnglishApp.view
             btn_next_word.Size = new Size(159, 38);
             btn_next_word.TabIndex = 2;
             btn_next_word.UseVisualStyleBackColor = false;
+            btn_next_word.Click += btn_next_click;
             // 
             // btn_idk
             // 
@@ -89,6 +91,7 @@ namespace EnglishApp.view
             btn_idk.Size = new Size(171, 42);
             btn_idk.TabIndex = 3;
             btn_idk.UseVisualStyleBackColor = true;
+            btn_idk.Click += btn_idk_click;
             // 
             // btn_exit
             // 
@@ -104,16 +107,17 @@ namespace EnglishApp.view
             btn_exit.Size = new Size(106, 25);
             btn_exit.TabIndex = 4;
             btn_exit.UseVisualStyleBackColor = true;
+            btn_exit.Click += btn_exit_Click;
             // 
-            // lbl_dop_word
+            // lbl_translate
             // 
-            lbl_dop_word.AutoSize = true;
-            lbl_dop_word.BackColor = Color.White;
-            lbl_dop_word.Font = new Font("Segoe UI", 13F);
-            lbl_dop_word.Location = new Point(231, 207);
-            lbl_dop_word.Name = "lbl_dop_word";
-            lbl_dop_word.Size = new Size(0, 25);
-            lbl_dop_word.TabIndex = 5;
+            lbl_translate.AutoSize = true;
+            lbl_translate.BackColor = Color.White;
+            lbl_translate.Font = new Font("Segoe UI", 13F);
+            lbl_translate.Location = new Point(275, 294);
+            lbl_translate.Name = "lbl_translate";
+            lbl_translate.Size = new Size(0, 25);
+            lbl_translate.TabIndex = 5;
             // 
             // lbl_count_words
             // 
@@ -123,9 +127,18 @@ namespace EnglishApp.view
             lbl_count_words.ForeColor = SystemColors.ActiveCaption;
             lbl_count_words.Location = new Point(546, 526);
             lbl_count_words.Name = "lbl_count_words";
-            lbl_count_words.Size = new Size(53, 37);
+            lbl_count_words.Size = new Size(0, 37);
             lbl_count_words.TabIndex = 7;
-            lbl_count_words.Text = "12";
+            // 
+            // lbl_example
+            // 
+            lbl_example.AutoSize = true;
+            lbl_example.BackColor = Color.Transparent;
+            lbl_example.Location = new Point(600, 101);
+            lbl_example.Name = "lbl_example";
+            lbl_example.Size = new Size(38, 15);
+            lbl_example.TabIndex = 8;
+            lbl_example.Text = "label1";
             // 
             // Main_form
             // 
@@ -134,8 +147,9 @@ namespace EnglishApp.view
             BackColor = Color.LightCyan;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(943, 639);
+            Controls.Add(lbl_example);
             Controls.Add(lbl_count_words);
-            Controls.Add(lbl_dop_word);
+            Controls.Add(lbl_translate);
             Controls.Add(btn_exit);
             Controls.Add(btn_idk);
             Controls.Add(btn_next_word);
@@ -144,6 +158,7 @@ namespace EnglishApp.view
             MaximumSize = new Size(959, 678);
             MinimumSize = new Size(959, 678);
             Name = "Main_form";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Main_form";
             ResumeLayout(false);
             PerformLayout();
@@ -161,8 +176,9 @@ namespace EnglishApp.view
         private Button btn_next_word;
         private Button btn_idk;
         private Button btn_exit;
-        private Label lbl_dop_word;
+        private Label lbl_translate;
         private Button btn_start_additionaly_form;
         private Label lbl_count_words;
+        private Label lbl_example;
     }
 }
